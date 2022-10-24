@@ -10,13 +10,10 @@ Uploaded to Github:
 
 Desktop: ModTwoChallenge/assets/images/ProfileDesktopWireframe.drawio.pdf
 Mobile: ModTwoChallenge/assets/images/ProfileMobileWireframe.drawio.pdf
-ProfileDesktopWireframe.drawio.pdf
-ProfileMobileWireframe.drawio.pdf
 
 ## Completed Page
 
 Portfolio: ModTwoChallenge/assets/images/EdelmanPortfolioScreenshot.jpg
-EdelmanPortfolioScreenshot.html
 
 ## Usage
 
