@@ -28,14 +28,13 @@ h2 {
   margin: 2% 0;
   font-size: 225%;
   color: lightgrey;
-  text-decoration: #4b6d61;
   height: 115px;
   padding: 25px;
 }
 
 h3 {
   margin: 2% 0;
-  font-size: 150%;
+  font-size: 175%;
   color: lightgrey;
 }
 
@@ -49,7 +48,7 @@ nav a {
   color: #24353f;
   font-weight: bold;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   padding: 15px;
 }
 
@@ -57,8 +56,6 @@ nav a {
   display: flex;
   padding: 25px;
   background-color: #4b6d61;
-  justify-content: flex-start;
-  width: 100%;
 }
 
 .titlename {
@@ -66,7 +63,6 @@ nav a {
   color: lightgray;
   padding: 2%;
   width: 25%;
-  align-items: top;
 }
 
 .right {
@@ -76,9 +72,15 @@ nav a {
   width: 75%;
 }
 
+.section img {
+  margin-left: 25px;
+}
+
 .section p {
   margin: 2% 0;
-  font-size: 110%;
+  font-size: 125%;
+  margin-left: 25px;
+  margin-right: 25%;
 }
 
 .section ul {
@@ -106,12 +108,46 @@ footer {
 
 @media screen and (max-width: 768px) {
   header,
+  h1,
+  h2,
+  nav ul,
+  h3,
+  p,
+  nav ul,
+  nav a,
+  .titlename,
+  .right,
   .section ul,
-  .section {
+  .section,
+  .section p {
     flex-direction: column;
-    padding: 0;
+    padding: 10px;
     width: 100%;
     text-align: center;
-    font-size: 80px;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+  }
+
+  /* The only difference is font size */
+  header,
+  h1,
+  h2,
+  nav ul {
+    font-size: 30px;
+  }
+
+  /* The only difference is font size */
+
+  h3,
+  p,
+  nav ul,
+  nav a,
+  .titlename,
+  .right,
+  .section ul,
+  .section,
+  .section p {
+    font-size: 15px;
   }
 }
