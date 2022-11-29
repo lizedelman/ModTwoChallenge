@@ -8,12 +8,14 @@ Uploaded to Github:
 
 ## Wireframes
 
-Desktop: ModTwoChallenge/assets/images/ProfileDesktopWireframe.drawio.pdf
-Mobile: ModTwoChallenge/assets/images/ProfileMobileWireframe.drawio.pdf
+Desktop Wireframe:
+![Screenshot](/assets/images/ProfileDesktopWireframe.drawio.pdf)
+Mobile Wireframe:
+![Screenshot](/assets/images/ProfileMobileWireframe.drawio.pdf)
 
 ## Completed Page
 
-Portfolio: ModTwoChallenge/assets/images/EdelmanPortfolioScreenshot.jpg
+![Screenshot](/assets/images/EdelmanPortfolioScreenshot.html)
 
 ## Usage
 
