@@ -4,18 +4,11 @@ Module 3 challenge to create a portfolio.
 
 ## Installation
 
-Uploaded to Github:
-
-## Wireframes
-
-Desktop Wireframe:
-![Screenshot](/assets/images/ProfileDesktopWireframe.drawio.pdf)
-Mobile Wireframe:
-![Screenshot](/assets/images/ProfileMobileWireframe.drawio.pdf)
+Uploaded to Github: https://github.com/lizedelman/ModTwoChallenge
 
 ## Completed Page
 
-![Screenshot](/assets/images/EdelmanPortfolioScreenshot.html)
+![Screenshot](./assets/images/Screenshot.png)
 
 ## Usage
 
