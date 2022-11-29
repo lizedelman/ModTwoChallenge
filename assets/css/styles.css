@@ -11,9 +11,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1%;
-
-  background-image: url("./assets/images/skeletonleaves1.jpg");
   background-color: #4b6d61;
+  background-image: url("./assets/images/skeletonleaves1.jpg");
   align-items: center;
   height: 250px;
 }
