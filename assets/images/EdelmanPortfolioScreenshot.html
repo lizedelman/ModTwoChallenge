@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5501/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./EdelmanPortfolioScreenshot_files/reset.css">
+    <link rel="stylesheet" href="./EdelmanPortfolioScreenshot_files/styles.css">
+    <title>Elizabeth Edelman</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Elizabeth 'Liz' Edelman</h1>
+
+      <nav>
+        <ul>
+          <li><a href="http://127.0.0.1:5501/index.html#profile">Profile</a></li>
+          <li><a href="http://127.0.0.1:5501/index.html#projects">Projects</a></li>
+          <li><a href="http://127.0.0.1:5501/index.html#experience">Experience</a></li>
+          <li><a href="http://127.0.0.1:5501/index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="section" id="profile">
+      <div class="titlename"><h2>Profile</h2></div>
+      
+  <div class="right">
+        <img src="./EdelmanPortfolioScreenshot_files/me.jpg" alt="Liz Edelman Profile Picture" width="250px" height="250px"><p>
+          Cupcake ipsum dolor sit amet. Muffin biscuit tootsie roll pastry I
+          love gummi bears chupa chups I love. Fruitcake cupcake bear claw I
+          love chocolate. Gingerbread lemon drops sugar plum jelly beans carrot
+          cake I love cheesecake chocolate bar cotton candy.
+        </p>
+
+        <p>
+          I love sugar plum apple pie gingerbread oat cake. I love donut gummi
+          bears jelly danish croissant gummies. Donut gummi bears sweet sweet
+          roll cheesecake bonbon.
+        </p>
+
+        <p>
+          Cake marshmallow toffee gingerbread dessert liquorice powder. Apple
+          pie icing carrot cake danish cookie I love muffin. Fruitcake liquorice
+          gingerbread lemon drops shortbread. Jelly beans jujubes liquorice
+          caramels gummi bears.
+        </p>
+        </div>
+      </div>
+    
+
+    <div class="section" id="projects">
+       <div class="titlename"><h2>Projects</h2></div>
+      <div class="right">
+      <ul>
+        <li><h3>Project #1</h3>
+        <p>placeholder text</p></li>
+        
+          <li><h3>Project #2</h3>
+        <p>placeholder text</p></li>
+
+          <li><h3>Project #3</h3>
+        <p>placeholder text</p></li>
+        </ul></div>
+    </div>
+
+    <div class="section" id="projects">
+       <div class="titlename"><h2>Experience</h2></div>
+      <div class="right">
+      <ul>
+        <li><h3>Education</h3>
+        <p>placeholder text</p></li>
+        
+          <li><h3>Job #1</h3>
+        <p>placeholder text</p></li>
+
+          <li><h3>Job #3</h3>
+        <p>placeholder text</p></li>
+        </ul></div>
+    </div>
+
+    <div class="section" id="contact">
+      <div class="titlename"><h2>Contact</h2></div>      
+          <div class="right">
+         <ul>
+        <li><h3>Email</h3></li>
+                <li><h3>Cell</h3></li>
+        <li><h3>Other</h3></li>
+        </ul></div> 
+       
+      </div>
+    
+
+    <footer>This is the footer</footer>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
