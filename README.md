@@ -1,6 +1,6 @@
-# ModThreeChallenge
+# ModTwoChallenge
 
-Module 3 challenge to create a portfolio.
+Module 2 challenge to create a portfolio.
 
 ## Installation
 
